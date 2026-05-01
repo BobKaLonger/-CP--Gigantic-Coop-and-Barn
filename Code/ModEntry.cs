@@ -13,7 +13,7 @@ namespace GiganticCoopAndBarn
     public class ModEntry : Mod
     {
         public static ModEntry? modInstance;
-        internal const string GiganticCP = "bobkalonger.GiganticCoopAndBarnCP_";
+        internal const string GiganticCP = "bobkalonger.gigacoopnbarn_";
         internal const string GigaBarn = $"{GiganticCP}GigaBarn";
         internal const string GigaCoop = $"{GiganticCP}GigaCoop";
         public override void Entry(IModHelper helper)
