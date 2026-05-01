@@ -32,28 +32,28 @@
 
     "CustomLocations": [
         {
-            "Name": "bobkalonger.gigacoopnbarn_cleanBarn5",
+            "Name": "bobkalonger.GiganticCoopAndBarnCP_cleanBarn5",
             "FromMapFile": "assets/cleanBarn5.tmx",
             "When": {
                 "Barn Floor": "Clean"
             }
         },
         {
-            "Name": "bobkalonger.gigacoopnbarn_cleanCoop5",
+            "Name": "bobkalonger.GiganticCoopAndBarnCP_cleanCoop5",
             "FromMapFile": "assets/cleanCoop5.tmx",
             "When": {
                 "Coop Floor": "Clean"
             }
         },
         {
-            "Name": "bobkalonger.gigacoopnbarn_cozyBarn5",
+            "Name": "bobkalonger.GiganticCoopAndBarnCP_cozyBarn5",
             "FromMapFile": "assets/cozyBarn5.tmx",
             "When": {
                 "Barn Floor": "Cozy"
             }
         },
         {
-            "Name": "bobkalonger.gigacoopnbarn_cozyCoop5",
+            "Name": "bobkalonger.GiganticCoopAndBarnCP_cozyCoop5",
             "FromMapFile": "assets/cozyCoop5.tmx",
             "When": {
                 "Coop Floor": "Cozy"
@@ -144,7 +144,7 @@
                     "AnimalDoorOpenSound": "doorCreak",
                     "AnimalDoorCloseDuration": 0.6,
                     "AnimalDoorCloseSound": "doorCreakReverse",
-                    "IndoorMap": "bobkalonger.gigacoopnbarn_{{Barn Floor}}Barn5",
+                    "IndoorMap": "bobkalonger.GiganticCoopAndBarnCP_{{Barn Floor}}Barn5",
                     "IndoorMapType": "StardewValley.AnimalHouse",
                     "MaxOccupants": 40,
                     "ValidOccupantTypes": [
@@ -334,7 +334,7 @@
                     "AnimalDoorOpenSound": "doorCreak",
                     "AnimalDoorCloseDuration": 0.3125,
                     "AnimalDoorCloseSound": "doorCreakReverse",
-                    "IndoorMap": "bobkalonger.gigacoopnbarn_{{Coop Floor}}Coop5",
+                    "IndoorMap": "bobkalonger.GiganticCoopAndBarnCP_{{Coop Floor}}Coop5",
                     "IndoorMapType": "StardewValley.AnimalHouse",
                     "MaxOccupants": 40,
                     "ValidOccupantTypes": [
@@ -515,7 +515,7 @@
                     "AnimalDoorOpenSound": "doorCreak",
                     "AnimalDoorCloseDuration": 0.6,
                     "AnimalDoorCloseSound": "doorCreakReverse",
-                    "IndoorMap": "bobkalonger.gigacoopnbarn_{{Barn Floor}}Barn5",
+                    "IndoorMap": "bobkalonger.GiganticCoopAndBarnCP_{{Barn Floor}}Barn5",
                     "IndoorMapType": "StardewValley.AnimalHouse",
                     "MaxOccupants": 40,
                     "ValidOccupantTypes": [
@@ -705,7 +705,7 @@
                     "AnimalDoorOpenSound": "doorCreak",
                     "AnimalDoorCloseDuration": 0.3125,
                     "AnimalDoorCloseSound": "doorCreakReverse",
-                    "IndoorMap": "bobkalonger.gigacoopnbarn_{{Coop Floor}}Coop5",
+                    "IndoorMap": "bobkalonger.GiganticCoopAndBarnCP_{{Coop Floor}}Coop5",
                     "IndoorMapType": "StardewValley.AnimalHouse",
                     "MaxOccupants": 40,
                     "ValidOccupantTypes": [
@@ -884,7 +884,7 @@
                     "AnimalDoorOpenSound": "doorCreak",
                     "AnimalDoorCloseDuration": 0.3125,
                     "AnimalDoorCloseSound": "doorCreakReverse",
-                    "IndoorMap": "bobkalonger.gigacoopnbarn_{{Coop Floor}}Coop5",
+                    "IndoorMap": "bobkalonger.GiganticCoopAndBarnCP_{{Coop Floor}}Coop5",
                     "IndoorMapType": "StardewValley.AnimalHouse",
                     "MaxOccupants": 40,
                     "ValidOccupantTypes": [
