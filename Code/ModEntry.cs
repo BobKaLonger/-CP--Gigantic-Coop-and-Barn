@@ -34,9 +34,9 @@ namespace GiganticCoopAndBarn
 
                 string? toCheck = null;
                 if (buildingId == "Coop" || buildingId == "Big Coop" || buildingId == "Deluxe Coop")
-                    toCheck = "ModEntry.GigaCoop";
+                    toCheck = GigaCoop;
                 else if (buildingId == "Barn" || buildingId == "Big Barn" || buildingId == "Deluxe Barn")
-                    toCheck = "ModEntry.GigaBarn";
+                    toCheck = GigaBarn;
 
                 if (toCheck != null && location.getNumberBuildingsConstructed(toCheck) > 0)
                     __result = true;
