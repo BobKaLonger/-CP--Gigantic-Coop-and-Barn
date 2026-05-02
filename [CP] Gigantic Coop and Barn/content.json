@@ -30,27 +30,38 @@
         }    
     },
 
+    "CustomLocations": [
+        {
+            "Name": "bobkalonger.gigacoopnbarn_cleanBarn5",
+            "FromMapFile": "assets/cleanBarn5.tmx",
+            "When": {
+                "Barn Floor": "Clean"
+            }
+        },
+        {
+            "Name": "bobkalonger.gigacoopnbarn_cleanCoop5",
+            "FromMapFile": "assets/cleanCoop5.tmx",
+            "When": {
+                "Coop Floor": "Clean"
+            }
+        },
+        {
+            "Name": "bobkalonger.gigacoopnbarn_cozyBarn5",
+            "FromMapFile": "assets/cozyBarn5.tmx",
+            "When": {
+                "Barn Floor": "Cozy"
+            }
+        },
+        {
+            "Name": "bobkalonger.gigacoopnbarn_cozyCoop5",
+            "FromMapFile": "assets/cozyCoop5.tmx",
+            "When": {
+                "Coop Floor": "Cozy"
+            }
+        }
+    ],
+
     "Changes": [
-        {
-            "Action": "Load",
-            "Target": "Maps/gigacoopnbarn_cleanBarn5",
-            "FromFile": "assets/cleanBarn5.tmx"
-        },
-        {
-            "Action": "Load",
-            "Target": "Maps/gigacoopnbarn_cleanCoop5",
-            "FromFile": "assets/cleanCoop5.tmx"
-        },
-        {
-            "Action": "Load",
-            "Target": "Maps/gigacoopnbarn_cozyBarn5",
-            "FromFile": "assets/cozyBarn5.tmx"
-        },
-        {
-            "Action": "Load",
-            "Target": "Maps/gigacoopnbarn_cozyCoop5",
-            "FromFile": "assets/cozyCoop5.tmx"
-        },
         {
             "LogName": "Paintable Giga Barn",
             "Action": "EditData",
