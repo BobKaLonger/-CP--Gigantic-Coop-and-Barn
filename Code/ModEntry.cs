@@ -50,6 +50,20 @@ namespace GiganticCoopAndBarn
                 {
                     MakeIncubatorsMoveable(indoors);
                 }
+
+                var interior = building.GetIndoors();
+                if (interior == null) continue;
+
+                interior.reloadMap();
+
+                if (interior is AnimalHouse animalHouse)
+                {
+                    foreach (var animal in animalHouse.animals.Values)
+                    {
+                        if (animal.currentLocation != animalHouse)
+                            animal.currentLocation = animalHouse;
+                    }
+                }
             }
         }
 
